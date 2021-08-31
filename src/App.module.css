@@ -1,4 +1,6 @@
 .title {
-    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 45%;
     font-size: 4rem;
 }
