@@ -1,0 +1,24 @@
+.movieDetails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    max-width: 40rem;
+    margin: 1rem;
+    width: 90%;
+}
+
+.movieImage {
+    border-radius: 1rem;
+    height: auto;
+}
+
+.movieTitle {
+    font-size: 2rem;
+}
+
+.firstTitle {
+    margin: 0;
+}

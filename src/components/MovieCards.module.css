@@ -1,0 +1,14 @@
+.movieCards {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 90%;
+    height: auto;
+    justify-content: center;
+    gap: 3rem;
+}
+
+@media (min-width: 568px) {
+    .movieCards {
+        grid-template-columns: repeat(auto-fill, 30rem);
+    }
+}

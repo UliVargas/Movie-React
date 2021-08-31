@@ -1,0 +1,26 @@
+.movieCard {
+    list-style: none;
+}
+
+.movieCard:hover {
+    opacity: 0.8;
+}
+
+.movieImage {
+    box-shadow: 0 0 3px 0.2rem #999999;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: azure;
+}
+
+.movieTitle {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+@media (min-width: 568px) {
+    .movieImage {
+        width: 300px;
+        height: 479px;
+    }
+}
