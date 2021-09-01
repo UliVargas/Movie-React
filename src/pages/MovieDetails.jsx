@@ -3,11 +3,15 @@ import { Get } from '../utils/HTTPSClient'
 import {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import { Spinner } from '../components/Spinner';
+import { useQuery} from '../hooks/useQuery'
+
 
 export function MovieDetails() {
     const { movieId } = useParams();
     const [Movie, setMovie] = useState([]);
     const [Loading, setLoading] = useState(true);
+
+
 
     useEffect(() => {
             setLoading(true)

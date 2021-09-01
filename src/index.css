@@ -9,11 +9,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-  background-attachment: fixed;
+  background-color: #1D1D1D;
+  color: #FFFFFF;
 }
 a {
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 img {
