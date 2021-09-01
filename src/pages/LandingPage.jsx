@@ -3,7 +3,6 @@ import { SearchBar } from '../components/SearchBar.jsx'
 export function LandingPage() {
     return (
         <div>
-        <SearchBar />
         <MoviesCards />
         </div>
     )

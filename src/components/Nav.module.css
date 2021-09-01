@@ -1,0 +1,33 @@
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.navContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 568px) {
+    .navContainer {
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.title {
+    font-size: 4rem;
+}
+
+@media (min-width: 500px) {
+    .title {
+        margin-left: 2rem;
+    }
+}
+
+.title span {
+    font-weight: 900;
+    color: #1EA8D9;
+}
