@@ -1,9 +1,10 @@
 import { MoviesCards } from '../components/MoviesCards.jsx'
-import { SearchBar } from '../components/SearchBar.jsx'
+import {Footer} from "../components/Footer";
 export function LandingPage() {
     return (
         <div>
-        <MoviesCards />
+            <MoviesCards />
+            <Footer />
         </div>
     )
 }

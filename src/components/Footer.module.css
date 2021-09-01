@@ -1,0 +1,10 @@
+.footer, .footer a {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.footer span {
+    color: #1EA8D9;
+}
