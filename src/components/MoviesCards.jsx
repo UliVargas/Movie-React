@@ -3,7 +3,6 @@ import styles from './MovieCards.module.css'
 import {useEffect, useState} from "react";
 import { Get } from '../utils/HTTPSClient'
 import { Spinner } from '../components/Spinner';
-import {useLocation} from "react-router-dom";
 import { useQuery } from '../hooks/useQuery'
 
 export function MoviesCards() {
