@@ -26,14 +26,16 @@ export function MovieDetails() {
         return null;
     }
     const ImageUrl = 'https://image.tmdb.org/t/p/w500' + Movie.poster_path;
-    const Genres = Movie.genres;
-    console.log(Genres)
+
     return (
         <div className={styles.movieDetails}>
             <img  className={`${styles.col} ${styles.movieImage}`} src={ImageUrl} alt={Movie.title}/>
             <div className={`${styles.col} ${styles.movieTitle}`}>
                 <p className={styles.firstTitle}><strong>Title:</strong> {Movie.title}</p>
-                <p><strong>Genres: {Genres.map(genre => genre.name).join(', ')}</strong></p>
+                <p>
+                    <strong>Genres: </strong>
+                    {Movie.genres.map(genre => genre.name).join(', ')}
+                </p>
                 <p><strong>Description:</strong> {Movie.overview}</p>
             </div>
         </div>

@@ -2,7 +2,7 @@ import { MovieCard } from './MovieCard'
 import styles from './MovieCards.module.css'
 import {useEffect, useState} from "react";
 import { Get } from '../utils/HTTPSClient'
-import { Spinner } from '../components/Spinner';
+import { Spinner } from './Spinner';
 import { useQuery } from '../hooks/useQuery'
 
 export function MoviesCards() {
@@ -20,7 +20,6 @@ export function MoviesCards() {
 
         Get(searchUrl).then((data) => {
             setMovies(data.results);
-            console.log(data)
             setLoading(false)
         })
     }, [search])
